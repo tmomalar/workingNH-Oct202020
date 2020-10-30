@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+              <th>Number</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>AutoImmuneAutomation</td>
+              <td>1</td>
+            <td>30 Oct 2020, 14:23</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+          <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+      </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iAddActivationDateAndTeminationDate() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>3</td>
+              <td class="duration" data-value="5112333333">5.112</td>
+              <td class="duration" data-value="5112333333">5.207</td>
+              <td class="duration" data-value="15337000000">15.337</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iAddDiseaseTest() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>1</td>
+              <td class="duration" data-value="2407000000">2.407</td>
+              <td class="duration" data-value="2407000000">2.407</td>
+              <td class="duration" data-value="2407000000">2.407</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iAddDiseaseToDiseaseField() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>1</td>
+              <td class="duration" data-value="5250000000">5.250</td>
+              <td class="duration" data-value="5250000000">5.250</td>
+              <td class="duration" data-value="5250000000">5.250</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iAddDrugsToDrugNameField() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>1</td>
+              <td class="duration" data-value="7607000000">7.607</td>
+              <td class="duration" data-value="7607000000">7.607</td>
+              <td class="duration" data-value="7607000000">7.607</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iAddFirstLineOfTreatment() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>1</td>
+              <td class="duration" data-value="4580000000">4.580</td>
+              <td class="duration" data-value="4580000000">4.580</td>
+              <td class="duration" data-value="4580000000">4.580</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iAddLOTTest() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>1</td>
+              <td class="duration" data-value="2586000000">2.586</td>
+              <td class="duration" data-value="2586000000">2.586</td>
+              <td class="duration" data-value="2586000000">2.586</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iAddSubDiseaseTest() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>1</td>
+              <td class="duration" data-value="2461000000">2.461</td>
+              <td class="duration" data-value="2461000000">2.461</td>
+              <td class="duration" data-value="2461000000">2.461</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iAmNotSeeingDiseaseTestEdited() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>1</td>
+              <td class="duration" data-value="1584000000">1.584</td>
+              <td class="duration" data-value="1584000000">1.584</td>
+              <td class="duration" data-value="1584000000">1.584</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iAmNotSeeingLOTTestEdited() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>1</td>
+              <td class="duration" data-value="1552000000">1.552</td>
+              <td class="duration" data-value="1552000000">1.552</td>
+              <td class="duration" data-value="1552000000">1.552</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iChangeTheActivationDateAndTerminationDateByMinusTenDays() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>3</td>
+              <td class="duration" data-value="7941666666">7.941</td>
+              <td class="duration" data-value="7941666666">8.052</td>
+              <td class="duration" data-value="23825000000">23.825</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iChangeTheTerminationDateFurtherByFiveDays() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>3</td>
+              <td class="duration" data-value="5059666666">5.059</td>
+              <td class="duration" data-value="5059666666">5.382</td>
+              <td class="duration" data-value="15179000000">15.179</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickManagementTabAndSelectDiseaseManagement() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>2</td>
+              <td class="duration" data-value="4718500000">4.718</td>
+              <td class="duration" data-value="4718500000">4.728</td>
+              <td class="duration" data-value="9437000000">9.437</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickManagementTabAndSelectLineOfTreatmentManagement() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>2</td>
+              <td class="duration" data-value="4732000000">4.732</td>
+              <td class="duration" data-value="4732000000">4.733</td>
+              <td class="duration" data-value="9464000000">9.464</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickManagementTabAndSelectSubDiseaseManagement() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>2</td>
+              <td class="duration" data-value="4770000000">4.770</td>
+              <td class="duration" data-value="4770000000">4.793</td>
+              <td class="duration" data-value="9540000000">9.540</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnAddNewButton() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>3</td>
+              <td class="duration" data-value="2490666666">2.490</td>
+              <td class="duration" data-value="2490666666">2.637</td>
+              <td class="duration" data-value="7472000000">7.472</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnDiseaseTest() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>1</td>
+              <td class="duration" data-value="2293000000">2.293</td>
+              <td class="duration" data-value="2293000000">2.293</td>
+              <td class="duration" data-value="2293000000">2.293</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnDiseases() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>1</td>
+              <td class="duration" data-value="2291000000">2.291</td>
+              <td class="duration" data-value="2291000000">2.291</td>
+              <td class="duration" data-value="2291000000">2.291</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnEditButton() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>6</td>
+              <td class="duration" data-value="2464000000">2.464</td>
+              <td class="duration" data-value="2464000000">2.608</td>
+              <td class="duration" data-value="14784000000">14.784</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnJustifications() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>1</td>
+              <td class="duration" data-value="2360000000">2.360</td>
+              <td class="duration" data-value="2360000000">2.360</td>
+              <td class="duration" data-value="2360000000">2.360</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnLOTTest() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>1</td>
+              <td class="duration" data-value="2261000000">2.261</td>
+              <td class="duration" data-value="2261000000">2.261</td>
+              <td class="duration" data-value="2261000000">2.261</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnPropertiesButton() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>1</td>
+              <td class="duration" data-value="2274000000">2.274</td>
+              <td class="duration" data-value="2274000000">2.274</td>
+              <td class="duration" data-value="2274000000">2.274</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnSaveButton() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>9</td>
+              <td class="duration" data-value="4434111111">4.434</td>
+              <td class="duration" data-value="4434111111">5.027</td>
+              <td class="duration" data-value="39907000000">39.907</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnSearchButton() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>2</td>
+              <td class="duration" data-value="2343500000">2.343</td>
+              <td class="duration" data-value="2343500000">2.448</td>
+              <td class="duration" data-value="4687000000">4.687</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnTemplateInformation() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>1</td>
+              <td class="duration" data-value="2487000000">2.487</td>
+              <td class="duration" data-value="2487000000">2.487</td>
+              <td class="duration" data-value="2487000000">2.487</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnTheDiseaseTestEdited() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>2</td>
+              <td class="duration" data-value="2293000000">2.293</td>
+              <td class="duration" data-value="2293000000">2.349</td>
+              <td class="duration" data-value="4586000000">4.586</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnTheLOTTestEdited() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>1</td>
+              <td class="duration" data-value="2241000000">2.241</td>
+              <td class="duration" data-value="2241000000">2.241</td>
+              <td class="duration" data-value="2241000000">2.241</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnTheSubDiseaseTest() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>2</td>
+              <td class="duration" data-value="2305000000">2.305</td>
+              <td class="duration" data-value="2305000000">2.446</td>
+              <td class="duration" data-value="4610000000">4.610</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnTheSubDiseaseTestEdited() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>2</td>
+              <td class="duration" data-value="2372500000">2.372</td>
+              <td class="duration" data-value="2372500000">2.390</td>
+              <td class="duration" data-value="4745000000">4.745</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iEditName() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>1</td>
+              <td class="duration" data-value="2662000000">2.662</td>
+              <td class="duration" data-value="2662000000">2.662</td>
+              <td class="duration" data-value="2662000000">2.662</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iEditNameAsDiseaseTestEdited() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>1</td>
+              <td class="duration" data-value="2639000000">2.639</td>
+              <td class="duration" data-value="2639000000">2.639</td>
+              <td class="duration" data-value="2639000000">2.639</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iEditNameAsLOTTestEdited() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>1</td>
+              <td class="duration" data-value="2397000000">2.397</td>
+              <td class="duration" data-value="2397000000">2.397</td>
+              <td class="duration" data-value="2397000000">2.397</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iEditParentDisease() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>2</td>
+              <td class="duration" data-value="4827000000">4.827</td>
+              <td class="duration" data-value="4827000000">4.998</td>
+              <td class="duration" data-value="9654000000">9.654</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iEditSCTID() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>6</td>
+              <td class="duration" data-value="2483500000">2.483</td>
+              <td class="duration" data-value="2483500000">2.595</td>
+              <td class="duration" data-value="14901000000">14.901</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iRefreshTheScreen() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>1</td>
+              <td class="duration" data-value="912000000">0.912</td>
+              <td class="duration" data-value="912000000">0.912</td>
+              <td class="duration" data-value="912000000">0.912</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iSelectClinicalConditionAsAutoimmuneDisease() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>4</td>
+              <td class="duration" data-value="4723250000">4.723</td>
+              <td class="duration" data-value="4723250000">4.829</td>
+              <td class="duration" data-value="18893000000">18.893</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.iSelectViewTemplate() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>1</td>
+              <td class="duration" data-value="2310000000">2.310</td>
+              <td class="duration" data-value="2310000000">2.310</td>
+              <td class="duration" data-value="2310000000">2.310</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.i_add_Autoimmune_Disease() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>1</td>
+              <td class="duration" data-value="6603000000">6.603</td>
+              <td class="duration" data-value="6603000000">6.603</td>
+              <td class="duration" data-value="6603000000">6.603</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.i_am_in_Management_Home_Page() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>6</td>
+              <td class="duration" data-value="4287333333">4.287</td>
+              <td class="duration" data-value="4287333333">5.921</td>
+              <td class="duration" data-value="25724000000">25.724</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.i_get_a_list_of_search_results() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>1</td>
+              <td class="duration" data-value="2435000000">2.435</td>
+              <td class="duration" data-value="2435000000">2.435</td>
+              <td class="duration" data-value="2435000000">2.435</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">com.nh.qa.ui.selenium.steps.LoginRunSteps.loadLoginPage() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/</td>
+              <td>1</td>
+              <td class="duration" data-value="6397000000">6.397</td>
+              <td class="duration" data-value="6397000000">6.397</td>
+              <td class="duration" data-value="6397000000">6.397</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                  </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>40</td>
+            <td>82</td>
+            <td class="duration">3.699</td>
+            <td class="duration">39.907</td>
+            <td class="duration">5:3.334</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

@@ -1,0 +1,1280 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-30T18:17:52.427Z",
+        "line": 9,
+        "name": "User is in the Main Page",
+        "description": "",
+        "id": "autoimmune;user-is-in-the-main-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6397000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on the AutoImmune Home Page",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.loadLoginPage() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@testrun"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-30T18:17:58.986Z",
+        "line": 13,
+        "name": "User is in the Management Page Disease Management",
+        "description": "",
+        "id": "autoimmune;user-is-in-the-management-page-disease-management",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4709000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click Management Tab and select Disease Management",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickManagementTabAndSelectDiseaseManagement() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3318000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am in Management Home Page",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.i_am_in_Management_Home_Page() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-30T18:18:07.037Z",
+        "line": 18,
+        "name": "User is in the Management Page Line of Treatment Management",
+        "description": "",
+        "id": "autoimmune;user-is-in-the-management-page-line-of-treatment-management",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4731000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click Management Tab and select Line of Treatment Management",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickManagementTabAndSelectLineOfTreatmentManagement() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3829000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I am in Management Home Page",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.i_am_in_Management_Home_Page() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-30T18:18:15.632Z",
+        "line": 23,
+        "name": "User is in the Management Page SubDisease Management",
+        "description": "",
+        "id": "autoimmune;user-is-in-the-management-page-subdisease-management",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4747000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click Management Tab and select SubDisease Management",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickManagementTabAndSelectSubDiseaseManagement() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4207000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I am in Management Home Page",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.i_am_in_Management_Home_Page() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-30T18:18:24.607Z",
+        "line": 28,
+        "name": "User searches based on AutoImmuneDisease",
+        "description": "",
+        "id": "autoimmune;user-searches-based-on-autoimmunedisease",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3885000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I am in Management Home Page",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.i_am_in_Management_Home_Page() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6603000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I add Autoimmune Disease",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.i_add_Autoimmune_Disease() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2448000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on Search Button",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnSearchButton() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2435000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I get a list of search results",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.i_get_a_list_of_search_results() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@testrun"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-30T18:18:39.997Z",
+        "line": 35,
+        "name": "User is opening the Searched Autoimmune Disease items",
+        "description": "",
+        "id": "autoimmune;user-is-opening-the-searched-autoimmune-disease-items",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2274000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click on properties button",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnPropertiesButton() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2310000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I select View Template",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iSelectViewTemplate() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2487000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I click on Template Information",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnTemplateInformation() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2291000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I click on Diseases",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnDiseases() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2360000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I click on Justifications",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnJustifications() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-30T18:18:51.744Z",
+        "line": 45,
+        "name": "User is in the Management Page and adds Drugs, Disease, LOT and Provider",
+        "description": "",
+        "id": "autoimmune;user-is-in-the-management-page-and-adds-drugs--disease--lot-and-provider",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5921000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I am in Management Home Page",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.i_am_in_Management_Home_Page() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7607000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I add drugs to Drug Name Field",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iAddDrugsToDrugNameField() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5250000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I add Rheumatoid arthritis to Disease Field",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iAddDiseaseToDiseaseField() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4580000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I add FirstLineOfTreatment",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iAddFirstLineOfTreatment() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2239000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I click on Search Button",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnSearchButton() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4564000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I am in Management Home Page",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.i_am_in_Management_Home_Page() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-30T18:19:21.930Z",
+        "line": 55,
+        "name": "User is adding NewDisease in Disease Management Page",
+        "description": "",
+        "id": "autoimmune;user-is-adding-newdisease-in-disease-management-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4728000000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I click Management Tab and select Disease Management",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickManagementTabAndSelectDiseaseManagement() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2637000000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I click on Add New Button",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnAddNewButton() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2407000000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I add DiseaseTest",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iAddDiseaseTest() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2484000000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I edit SCTID",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iEditSCTID() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4825000000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I select clinical condition as Autoimmune Disease",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iSelectClinicalConditionAsAutoimmuneDisease() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5207000000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I add Activation Date and Termination Date",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iAddActivationDateAndTeminationDate() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4952000000,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I click on Save button",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnSaveButton() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2293000000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I click on DiseaseTest",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnDiseaseTest() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-30T18:19:51.482Z",
+        "line": 70,
+        "name": "User is in the Management Page Disease Management Page editing new Disease",
+        "description": "",
+        "id": "autoimmune;user-is-in-the-management-page-disease-management-page-editing-new-disease",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2519000000,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I click on edit button",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnEditButton() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2639000000,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "I edit Name as DiseaseTestEdited",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iEditNameAsDiseaseTestEdited() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2364000000,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I edit SCTID",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iEditSCTID() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4595000000,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "I select clinical condition as Autoimmune Disease",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iSelectClinicalConditionAsAutoimmuneDisease() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4955000000,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I change the Termination Date further by five days",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iChangeTheTerminationDateFurtherByFiveDays() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4602000000,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I click on Save button",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnSaveButton() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2349000000,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "I click on the DiseaseTestEdited",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnTheDiseaseTestEdited() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-30T18:20:15.549Z",
+        "line": 83,
+        "name": "I clear the DiseaseTestEdited",
+        "description": "",
+        "id": "autoimmune;i-clear-the-diseasetestedited",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2237000000,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "I click on the DiseaseTestEdited",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnTheDiseaseTestEdited() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2608000000,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "I click on edit button",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnEditButton() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8052000000,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "I change the Activation Date and Termination date by minus ten days",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iChangeTheActivationDateAndTerminationDateByMinusTenDays() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4502000000,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "I click on Save button",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnSaveButton() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1584000000,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "I am not seeing DiseaseTestEdited",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iAmNotSeeingDiseaseTestEdited() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-30T18:20:34.568Z",
+        "line": 94,
+        "name": "User is in the Management Page SubDisease Management to Save new item",
+        "description": "",
+        "id": "autoimmune;user-is-in-the-management-page-subdisease-management-to-save-new-item",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4793000000,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "I click Management Tab and select SubDisease Management",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickManagementTabAndSelectSubDiseaseManagement() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2430000000,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "I click on Add New Button",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnAddNewButton() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2461000000,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "I add SubDiseaseTest",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iAddSubDiseaseTest() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2506000000,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "I edit SCTID",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iEditSCTID() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4998000000,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "I edit Parent Disease",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iEditParentDisease() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4934000000,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "I add Activation Date and Termination Date",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iAddActivationDateAndTeminationDate() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4420000000,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "I click on Save button",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnSaveButton() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2446000000,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "I click on the SubDiseaseTest",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnTheSubDiseaseTest() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-30T18:21:03.581Z",
+        "line": 107,
+        "name": "User is in the Management Page SubDisease Management and edits Saved item",
+        "description": "",
+        "id": "autoimmune;user-is-in-the-management-page-subdisease-management-and-edits-saved-item",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2164000000,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "I click on the SubDiseaseTest",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnTheSubDiseaseTest() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2453000000,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "I click on edit button",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnEditButton() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2662000000,
+              "status": "passed"
+            },
+            "line": 110,
+            "name": "I edit Name",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iEditName() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2392000000,
+              "status": "passed"
+            },
+            "line": 111,
+            "name": "I edit SCTID",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iEditSCTID() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4656000000,
+              "status": "passed"
+            },
+            "line": 112,
+            "name": "I edit Parent Disease",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iEditParentDisease() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5382000000,
+              "status": "passed"
+            },
+            "line": 113,
+            "name": "I change the Termination Date further by five days",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iChangeTheTerminationDateFurtherByFiveDays() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4162000000,
+              "status": "passed"
+            },
+            "line": 114,
+            "name": "I click on Save button",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnSaveButton() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2355000000,
+              "status": "passed"
+            },
+            "line": 115,
+            "name": "I click on the SubDiseaseTestEdited",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnTheSubDiseaseTestEdited() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-30T18:21:29.831Z",
+        "line": 126,
+        "name": "User clears the SubDisease that was Edited",
+        "description": "",
+        "id": "autoimmune;user-clears-the-subdisease-that-was-edited",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2390000000,
+              "status": "passed"
+            },
+            "line": 127,
+            "name": "I click on the SubDiseaseTestEdited",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnTheSubDiseaseTestEdited() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2513000000,
+              "status": "passed"
+            },
+            "line": 128,
+            "name": "I click on edit button",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnEditButton() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8027000000,
+              "status": "passed"
+            },
+            "line": 129,
+            "name": "I change the Activation Date and Termination date by minus ten days",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iChangeTheActivationDateAndTerminationDateByMinusTenDays() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4028000000,
+              "status": "passed"
+            },
+            "line": 130,
+            "name": "I click on Save button",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnSaveButton() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-30T18:21:46.806Z",
+        "line": 133,
+        "name": "User is adding NewLOT in Line of Treatment Management Page",
+        "description": "",
+        "id": "autoimmune;user-is-adding-newlot-in-line-of-treatment-management-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4733000000,
+              "status": "passed"
+            },
+            "line": 134,
+            "name": "I click Management Tab and select Line of Treatment Management",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickManagementTabAndSelectLineOfTreatmentManagement() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2405000000,
+              "status": "passed"
+            },
+            "line": 135,
+            "name": "I click on Add New Button",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnAddNewButton() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2586000000,
+              "status": "passed"
+            },
+            "line": 136,
+            "name": "I add LOTTest",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iAddLOTTest() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2560000000,
+              "status": "passed"
+            },
+            "line": 137,
+            "name": "I edit SCTID",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iEditSCTID() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4829000000,
+              "status": "passed"
+            },
+            "line": 138,
+            "name": "I select clinical condition as Autoimmune Disease",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iSelectClinicalConditionAsAutoimmuneDisease() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5196000000,
+              "status": "passed"
+            },
+            "line": 139,
+            "name": "I add Activation Date and Termination Date",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iAddActivationDateAndTeminationDate() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5027000000,
+              "status": "passed"
+            },
+            "line": 140,
+            "name": "I click on Save button",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnSaveButton() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2261000000,
+              "status": "passed"
+            },
+            "line": 142,
+            "name": "I click on LOTTest",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnLOTTest() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-30T18:22:16.424Z",
+        "line": 145,
+        "name": "User is in the Management Page Line of Treatment Page editing new LOT",
+        "description": "",
+        "id": "autoimmune;user-is-in-the-management-page-line-of-treatment-page-editing-new-lot",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2412000000,
+              "status": "passed"
+            },
+            "line": 146,
+            "name": "I click on edit button",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnEditButton() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2397000000,
+              "status": "passed"
+            },
+            "line": 147,
+            "name": "I edit Name as LOTTestEdited",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iEditNameAsLOTTestEdited() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2595000000,
+              "status": "passed"
+            },
+            "line": 148,
+            "name": "I edit SCTID",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iEditSCTID() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4644000000,
+              "status": "passed"
+            },
+            "line": 149,
+            "name": "I select clinical condition as Autoimmune Disease",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iSelectClinicalConditionAsAutoimmuneDisease() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4842000000,
+              "status": "passed"
+            },
+            "line": 150,
+            "name": "I change the Termination Date further by five days",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iChangeTheTerminationDateFurtherByFiveDays() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4157000000,
+              "status": "passed"
+            },
+            "line": 151,
+            "name": "I click on Save button",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnSaveButton() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-30T18:22:37.492Z",
+        "line": 168,
+        "name": "I clear the LOTTestEdited",
+        "description": "",
+        "id": "autoimmune;i-clear-the-lottestedited",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2241000000,
+              "status": "passed"
+            },
+            "line": 169,
+            "name": "I click on the LOTTestEdited",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnTheLOTTestEdited() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2279000000,
+              "status": "passed"
+            },
+            "line": 170,
+            "name": "I click on edit button",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnEditButton() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7746000000,
+              "status": "passed"
+            },
+            "line": 171,
+            "name": "I change the Activation Date and Termination date by minus ten days",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iChangeTheActivationDateAndTerminationDateByMinusTenDays() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4057000000,
+              "status": "passed"
+            },
+            "line": 172,
+            "name": "I click on Save button",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iClickOnSaveButton() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 912000000,
+              "status": "passed"
+            },
+            "line": 173,
+            "name": "I refresh the Page",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iRefreshTheScreen() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1552000000,
+              "status": "passed"
+            },
+            "line": 174,
+            "name": "I am not seeing LOTTestEdited",
+            "match": {
+              "location": "com.nh.qa.ui.selenium.steps.LoginRunSteps.iAmNotSeeingLOTTestEdited() in file:/C:/Users/mprakash/UIAutoImmune/target/test-classes/"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Autoimmune",
+    "description": "",
+    "id": "autoimmune",
+    "keyword": "Feature",
+    "uri": "classpath:com/nh/qa/ui/selenium/security/security.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.nh.qa.ui.selenium.secuirity.RegressionTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 313.888 s - in com.nh.qa.ui.selenium.secuirity.RegressionTest

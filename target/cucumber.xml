@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="16" time="313.58">
+<testcase classname="Autoimmune" name="User is in the Main Page" time="6.48">
+<system-out><![CDATA[Given I am on the AutoImmune Home Page......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autoimmune" name="User is in the Management Page Disease Management" time="8.031">
+<system-out><![CDATA[Given I click Management Tab and select Disease Management..................passed
+When I am in Management Home Page...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autoimmune" name="User is in the Management Page Line of Treatment Management" time="8.564">
+<system-out><![CDATA[Given I click Management Tab and select Line of Treatment Management........passed
+When I am in Management Home Page...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autoimmune" name="User is in the Management Page SubDisease Management" time="8.959">
+<system-out><![CDATA[Given I click Management Tab and select SubDisease Management...............passed
+When I am in Management Home Page...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autoimmune" name="User searches based on AutoImmuneDisease" time="15.376">
+<system-out><![CDATA[When I am in Management Home Page...........................................passed
+Given I add Autoimmune Disease..............................................passed
+And I click on Search Button................................................passed
+Then I get a list of search results.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autoimmune" name="User is opening the Searched Autoimmune Disease items" time="11.726">
+<system-out><![CDATA[Then I click on properties button...........................................passed
+Then I select View Template.................................................passed
+Then I click on Template Information........................................passed
+Then I click on Diseases....................................................passed
+Then I click on Justifications..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autoimmune" name="User is in the Management Page and adds Drugs, Disease, LOT and Provider" time="30.165">
+<system-out><![CDATA[Given I am in Management Home Page..........................................passed
+Then I add drugs to Drug Name Field.........................................passed
+Then I add Rheumatoid arthritis to Disease Field............................passed
+Then I add FirstLineOfTreatment.............................................passed
+Then I click on Search Button...............................................passed
+When I am in Management Home Page...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autoimmune" name="User is adding NewDisease in Disease Management Page" time="29.539">
+<system-out><![CDATA[Given I click Management Tab and select Disease Management..................passed
+Then I click on Add New Button..............................................passed
+Then I add DiseaseTest......................................................passed
+Then I edit SCTID...........................................................passed
+Then I select clinical condition as Autoimmune Disease......................passed
+Then I add Activation Date and Termination Date.............................passed
+Then I click on Save button.................................................passed
+Then I click on DiseaseTest.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autoimmune" name="User is in the Management Page Disease Management Page editing new Disease" time="24.029">
+<system-out><![CDATA[Given I click on edit button................................................passed
+Then I edit Name as DiseaseTestEdited.......................................passed
+Then I edit SCTID...........................................................passed
+Then I select clinical condition as Autoimmune Disease......................passed
+Then I change the Termination Date further by five days.....................passed
+Then I click on Save button.................................................passed
+Then I click on the DiseaseTestEdited.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autoimmune" name="I clear the DiseaseTestEdited" time="18.988">
+<system-out><![CDATA[Given I click on the DiseaseTestEdited......................................passed
+Then I click on edit button.................................................passed
+Then I change the Activation Date and Termination date by minus ten days....passed
+Then I click on Save button.................................................passed
+And I am not seeing DiseaseTestEdited.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autoimmune" name="User is in the Management Page SubDisease Management to Save new item" time="28.998">
+<system-out><![CDATA[Given I click Management Tab and select SubDisease Management...............passed
+Then I click on Add New Button..............................................passed
+Then I add SubDiseaseTest...................................................passed
+Then I edit SCTID...........................................................passed
+Then I edit Parent Disease..................................................passed
+Then I add Activation Date and Termination Date.............................passed
+Then I click on Save button.................................................passed
+Then I click on the SubDiseaseTest..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autoimmune" name="User is in the Management Page SubDisease Management and edits Saved item" time="26.233">
+<system-out><![CDATA[Given I click on the SubDiseaseTest.........................................passed
+Given I click on edit button................................................passed
+Then I edit Name............................................................passed
+Then I edit SCTID...........................................................passed
+Then I edit Parent Disease..................................................passed
+Then I change the Termination Date further by five days.....................passed
+Then I click on Save button.................................................passed
+Then I click on the SubDiseaseTestEdited....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autoimmune" name="User clears the SubDisease that was Edited" time="16.963">
+<system-out><![CDATA[When I click on the SubDiseaseTestEdited....................................passed
+Then I click on edit button.................................................passed
+Then I change the Activation Date and Termination date by minus ten days....passed
+Then I click on Save button.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autoimmune" name="User is adding NewLOT in Line of Treatment Management Page" time="29.601">
+<system-out><![CDATA[Given I click Management Tab and select Line of Treatment Management........passed
+Then I click on Add New Button..............................................passed
+Then I add LOTTest..........................................................passed
+Then I edit SCTID...........................................................passed
+Then I select clinical condition as Autoimmune Disease......................passed
+Then I add Activation Date and Termination Date.............................passed
+Then I click on Save button.................................................passed
+Then I click on LOTTest.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autoimmune" name="User is in the Management Page Line of Treatment Page editing new LOT" time="21.049">
+<system-out><![CDATA[Given I click on edit button................................................passed
+Then I edit Name as LOTTestEdited...........................................passed
+Then I edit SCTID...........................................................passed
+Then I select clinical condition as Autoimmune Disease......................passed
+Then I change the Termination Date further by five days.....................passed
+Then I click on Save button.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autoimmune" name="I clear the LOTTestEdited" time="18.79">
+<system-out><![CDATA[Given I click on the LOTTestEdited..........................................passed
+Then I click on edit button.................................................passed
+Then I change the Activation Date and Termination date by minus ten days....passed
+Then I click on Save button.................................................passed
+Then I refresh the Page.....................................................passed
+And I am not seeing LOTTestEdited...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,5 @@
+Username,Password,result
+mp-kbadmin@test.eviti.com,Password1!,mainPage
+mp-kbadmin@test.eviti.com,wrong-password,loginErrorMessage
+wrong-user,Password1!,loginErrorMessage
+wrong-user,wrong-password,loginErrorMessage
